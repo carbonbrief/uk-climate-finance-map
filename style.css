@@ -1,0 +1,99 @@
+      html, body, #map {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+      }
+	  
+	  
+	#title {
+		  font-family: "PT Sans Narrow", Arial;
+		  font-size: 28px;
+		  color: #282828;
+		  top: 10px;
+		  left: 48px;
+		  width: auto;
+		  height: auto;
+		  z-index: 9000;
+		  position: absolute;
+		  background-color: rgba(255,255,255,.7);
+		  background-repeat: no-repeat;
+		  padding: 12px;
+		  border-radius: 5px;
+	      -webkit-box-shadow: 6px 10px 23px 5px rgba(102,102,102,0.2);
+	      -moz-box-shadow: 6px 10px 23px 5px rgba(102,102,102,0.2);
+	      box-shadow: 6px 10px 23px 5px rgba(102,102,102,0.2);
+		  }
+	  
+	  
+
+	  
+	  #Key1 {
+  		position: absolute;
+        	bottom: 26px;
+        	right: 10px;
+        	z-index: 9000;
+  		height: 68px;
+  		width: 337px;
+  		background-image:url(Key1.png);
+  		background-repeat: no-repeat;
+	  border-radius: 5px;
+      -webkit-box-shadow: 6px 10px 23px 5px rgba(102,102,102,0.2);
+      -moz-box-shadow: 6px 10px 23px 5px rgba(102,102,102,0.2);
+      box-shadow: 6px 10px 23px 5px rgba(102,102,102,0.2);
+	  }
+		
+	  #Key2 {
+  		position: absolute;
+        	bottom: 26px;
+        	right: 357px;
+        	z-index: 9000;
+  		height: 68px;
+  		width: 182px;
+  		background-image:url(Key2.png);
+  		background-repeat: no-repeat;
+	  border-radius: 5px;
+      -webkit-box-shadow: 6px 10px 23px 5px rgba(102,102,102,0.2);
+      -moz-box-shadow: 6px 10px 23px 5px rgba(102,102,102,0.2);
+      box-shadow: 6px 10px 23px 5px rgba(102,102,102,0.2);
+	  }
+	  
+	  .total {
+		  position: absolute;
+      	top: 10px;
+      	right: 10px;
+		z-index: 9000;
+		  width: auto;
+		height: auto;
+		  font-family: "PT Sans", Arial;
+		  font-weight: bold;
+		  font-size: 16px;
+		  color: #282828;
+		  background-color: rgba(255,255,255,.7);
+		  padding: 10px;
+		  border-radius: 5px;
+	      -webkit-box-shadow: 6px 10px 23px 5px rgba(102,102,102,0.2);
+	      -moz-box-shadow: 6px 10px 23px 5px rgba(102,102,102,0.2);
+	      box-shadow: 6px 10px 23px 5px rgba(102,102,102,0.2);
+		  }
+		  
+	
+	
+	#logo {
+		position: absolute;
+      	bottom: 6px;
+      	left: 73px;
+      	z-index: 9000;
+		height: 30px;
+		width: 30px;
+		background-image:url(logo.png);
+		background-repeat: no-repeat;
+		}
+	  
+	@media only screen and (max-width: 650px) {
+    #title {
+        display: none;
+    }
+	.total {
+		display: none;
+	}
+}
